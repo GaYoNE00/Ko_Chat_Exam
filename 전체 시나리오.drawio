@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T07:59:34.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.26 Safari/537.36" etag="mTaW3Vp7WqTQq8TH_lAi" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T08:12:58.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.26 Safari/537.36" etag="7waY4JUtm3s7NFKyxDff" version="22.0.8" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1388" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EsVAypqveaLoAmLeQ6aI-1" value="공개 요청 현황" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-810" width="1060" height="260" as="geometry" />
+          <mxGeometry x="20" y="-810" width="1110" height="260" as="geometry" />
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-1" source="Mb8Y5IPRG79mkYF5UTKG-5" target="EsVAypqveaLoAmLeQ6aI-45">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +49,7 @@
           <mxGeometry x="570" y="40" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-12" value="인증 분석" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-500" width="1060" height="110" as="geometry">
+          <mxGeometry x="20" y="-500" width="1110" height="110" as="geometry">
             <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -63,7 +63,7 @@
           <mxGeometry x="100" y="30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-23" value="견적서" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-370" width="1060" height="270" as="geometry">
+          <mxGeometry x="20" y="-370" width="1110" height="270" as="geometry">
             <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -108,6 +108,182 @@
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-50" value="&lt;ol&gt;&lt;li&gt;(서비스)업체 검색&lt;/li&gt;&lt;li&gt;(서비스)공개 요청&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-23">
           <mxGeometry x="940" y="25" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-52" value="견적서 내역" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-70" width="1110" height="370" as="geometry">
+            <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-52" source="EsVAypqveaLoAmLeQ6aI-54" target="EsVAypqveaLoAmLeQ6aI-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-54" value="어떤 견적서를 보고 싶으신가요?&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="340" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-52" source="EsVAypqveaLoAmLeQ6aI-56" target="EsVAypqveaLoAmLeQ6aI-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-56" value="견적서 내역 보고 싶어" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="100" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-52" source="EsVAypqveaLoAmLeQ6aI-63" target="EsVAypqveaLoAmLeQ6aI-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-63" value="&lt;ol&gt;&lt;li&gt;원료 소재&lt;/li&gt;&lt;li&gt;시설장비&lt;/li&gt;&lt;li&gt;전문 코디네이션&lt;/li&gt;&lt;li&gt;인증분석&lt;/li&gt;&lt;li&gt;교육 지원(제거)&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="580" y="25" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-52" source="EsVAypqveaLoAmLeQ6aI-65" target="EsVAypqveaLoAmLeQ6aI-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-65" value="작성하신 견적의 형태를 골라주세요." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="730" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-66" value="&lt;ol&gt;&lt;li&gt;(서비스)견적 요청내역&lt;/li&gt;&lt;li&gt;(서비스)견적 제출내역&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="940" y="25" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="EsVAypqveaLoAmLeQ6aI-70" target="EsVAypqveaLoAmLeQ6aI-72" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-70" value="(서비스)견적 내역 보여줘" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="100" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="EsVAypqveaLoAmLeQ6aI-72" target="EsVAypqveaLoAmLeQ6aI-74" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-72" value="(서비스)견적 내역 중 어느것을 보고 싶으신가요?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="340" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="EsVAypqveaLoAmLeQ6aI-74" target="EsVAypqveaLoAmLeQ6aI-75" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-74" value="&lt;ol&gt;&lt;li&gt;견적 요청 내역&lt;/li&gt;&lt;li&gt;견적 제출 내역&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="580" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-52" source="EsVAypqveaLoAmLeQ6aI-75" target="EsVAypqveaLoAmLeQ6aI-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-75" value="견적서 요청(제출) 내역 보실 수&lt;br&gt;있는 링크를 드리겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="730" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-76" value="&lt;ol&gt;&lt;li&gt;(서비스)견적 요청(제출) 내역&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="950" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-79" value="&lt;ol&gt;&lt;li&gt;(서비스)견적 요청(제출) 내역&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-52">
+          <mxGeometry x="950" y="270" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EsVAypqveaLoAmLeQ6aI-58" target="EsVAypqveaLoAmLeQ6aI-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-58" value="견적 요청(제출) 내역&lt;br&gt;보여줘" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EsVAypqveaLoAmLeQ6aI-60" target="EsVAypqveaLoAmLeQ6aI-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-60" value="견적서 요청(제출) 내역 보실 수&lt;br&gt;있는 링크를 드리겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EsVAypqveaLoAmLeQ6aI-61" target="EsVAypqveaLoAmLeQ6aI-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-61" value="&lt;ol&gt;&lt;li&gt;견적 요청(제출)&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EsVAypqveaLoAmLeQ6aI-67" target="EsVAypqveaLoAmLeQ6aI-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-67" value="견적서 요청(제출) 내역 보실 수&lt;br&gt;있는 링크를 드리겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="750" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-81" value="편지함" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="1110" height="230" as="geometry">
+            <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-81" source="EsVAypqveaLoAmLeQ6aI-83" target="EsVAypqveaLoAmLeQ6aI-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-83" value="어느 편지함으로 이동할까요?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="340" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-81" source="EsVAypqveaLoAmLeQ6aI-85" target="EsVAypqveaLoAmLeQ6aI-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-85" value="쪽지함 보고 싶어" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="100" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-81" source="EsVAypqveaLoAmLeQ6aI-87" target="EsVAypqveaLoAmLeQ6aI-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-87" value="&lt;ol&gt;&lt;li&gt;받은 편지함&lt;/li&gt;&lt;li&gt;보낸 편지함&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="580" y="25" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-81" source="EsVAypqveaLoAmLeQ6aI-89" target="EsVAypqveaLoAmLeQ6aI-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-89" value="보낸(받은)편지함으로 &lt;br&gt;안내하겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="730" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-90" value="&lt;ol&gt;&lt;li&gt;보낸(받은) 편지함&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="940" y="25" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-81" source="EsVAypqveaLoAmLeQ6aI-92" target="EsVAypqveaLoAmLeQ6aI-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-92" value="(서비스)견적 내역 보여줘" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="100" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-81" source="EsVAypqveaLoAmLeQ6aI-94" target="EsVAypqveaLoAmLeQ6aI-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-94" value="보낸(받은)편지함으로&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;안내하겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="340" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-101" value="&lt;ol&gt;&lt;li&gt;보낸(받은) 편지함&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-81">
+          <mxGeometry x="580" y="135" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-102" value="문의" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="590" width="1110" height="310" as="geometry">
+            <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-102" source="EsVAypqveaLoAmLeQ6aI-104" target="EsVAypqveaLoAmLeQ6aI-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-104" value="플랫폼에 남길 수 있는 문의와&lt;br&gt;업체에게 남길 수 있는 문의가 &lt;br&gt;있습니다. 선택해주세요" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="340" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-102" source="EsVAypqveaLoAmLeQ6aI-106" target="EsVAypqveaLoAmLeQ6aI-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-106" value="문의 어떻게 해?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="100" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-102" source="EsVAypqveaLoAmLeQ6aI-108" target="EsVAypqveaLoAmLeQ6aI-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-108" value="&lt;ol&gt;&lt;li&gt;1:1 문의 게시판&lt;/li&gt;&lt;li&gt;묻고 답하기&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="580" y="25" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-102" source="EsVAypqveaLoAmLeQ6aI-110" target="EsVAypqveaLoAmLeQ6aI-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-110" value="1:1 문의게시판(묻고 답하기)로 이동하겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="730" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-111" value="&lt;ol&gt;&lt;li&gt;문의게시판(묻고 답하기)&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="940" y="25" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-102" source="EsVAypqveaLoAmLeQ6aI-113" target="EsVAypqveaLoAmLeQ6aI-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-113" value="1:1 문의(묻고 답하기) 하고 싶어" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="100" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-115" value="1:1 문의 게시판(묻고 답하기)&lt;br&gt;으로 이동합니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="340" y="150" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
