@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T08:12:58.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.26 Safari/537.36" etag="7waY4JUtm3s7NFKyxDff" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T08:15:30.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.26 Safari/537.36" etag="CXDLKec1j8Y-rz1qMSP6" version="22.0.8" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1388" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
           <mxGeometry x="580" y="135" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-102" value="문의" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="590" width="1110" height="310" as="geometry">
+          <mxGeometry x="20" y="590" width="1110" height="230" as="geometry">
             <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -283,6 +283,47 @@
           <mxGeometry x="100" y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-115" value="1:1 문의 게시판(묻고 답하기)&lt;br&gt;으로 이동합니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-102">
+          <mxGeometry x="340" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-120" value="회원 가입" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="850" width="1110" height="230" as="geometry">
+            <mxRectangle x="20" y="-480" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-120" source="EsVAypqveaLoAmLeQ6aI-122" target="EsVAypqveaLoAmLeQ6aI-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-122" value="회원 가입 및 수정, 로그인중 어떤 기능을 이용하시겠어요?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
+          <mxGeometry x="340" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-120" source="EsVAypqveaLoAmLeQ6aI-124" target="EsVAypqveaLoAmLeQ6aI-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-124" value="회원 정보" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
+          <mxGeometry x="100" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-120" source="EsVAypqveaLoAmLeQ6aI-126" target="EsVAypqveaLoAmLeQ6aI-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-126" value="&lt;ol&gt;&lt;li&gt;회원 가입&lt;/li&gt;&lt;li&gt;회원 수정&lt;/li&gt;&lt;li&gt;로그인 (예정)&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
+          <mxGeometry x="580" y="25" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-120" source="EsVAypqveaLoAmLeQ6aI-128" target="EsVAypqveaLoAmLeQ6aI-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-128" value="회원가입(수정 or 로그인) 페이지로 안내 해드리겠습니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
+          <mxGeometry x="730" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-129" value="&lt;ol&gt;&lt;li&gt;회원가입(수정 or 로그인)&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
+          <mxGeometry x="940" y="25" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EsVAypqveaLoAmLeQ6aI-120" source="EsVAypqveaLoAmLeQ6aI-131" target="EsVAypqveaLoAmLeQ6aI-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-131" value="1:1 문의(묻고 답하기) 하고 싶어" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
+          <mxGeometry x="100" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-132" value="1:1 문의 게시판(묻고 답하기)&lt;br&gt;으로 이동합니다." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-120">
           <mxGeometry x="340" y="150" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
