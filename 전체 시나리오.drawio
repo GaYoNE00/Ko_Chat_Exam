@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T08:55:58.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.26 Safari/537.36" etag="Z80h7Y1f6BcNxgYgMqJp" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T23:44:45.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.26 Safari/537.36" etag="k2GfrQkoO1wbrFPUFy-O" version="22.0.8" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
-    <mxGraphModel dx="1388" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="935" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -660,7 +660,7 @@
         <mxCell id="EsVAypqveaLoAmLeQ6aI-321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="EsVAypqveaLoAmLeQ6aI-322" target="EsVAypqveaLoAmLeQ6aI-320" parent="EsVAypqveaLoAmLeQ6aI-297">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EsVAypqveaLoAmLeQ6aI-322" value="FALLBACK_SUB" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-297">
+        <mxCell id="EsVAypqveaLoAmLeQ6aI-322" value="FALLBACK_SUB(대안 제시)" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-297">
           <mxGeometry x="100" y="290" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EsVAypqveaLoAmLeQ6aI-323" value="&lt;ol&gt;&lt;li&gt;유추한 기능1&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;유추한 기능2&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;유추한 기능3&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;유추한 기능4&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;spacing=0;spacingLeft=-21;" vertex="1" parent="EsVAypqveaLoAmLeQ6aI-297">
